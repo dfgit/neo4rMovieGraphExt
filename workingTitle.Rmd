@@ -198,6 +198,13 @@ kableTable <- function(qry_res) {
 ```
 ### visNetwork utiity functions
 ```{r visNetwork-utilities}
+
+# For github todo bot
+#  @todo Use a different visualization / layout package
+#  @body Current issues include edge label overlap on self-relationships
+#  - 
+
+  
 # set groups for a visNetwork object based on labels
 setGroups <- function(g_disp, n_visuals, shape="circle") {
   for (gr in n_visuals$label) {
